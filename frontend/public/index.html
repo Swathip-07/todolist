@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List & Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="todo-container">
+            <h2 class="title">To-Do List</h2>
+            <div class="todo-input">
+                <input type="text" id="taskInput" placeholder="Enter a task">
+                <select id="eventType">
+                    <option value="birthday">Birthday</option>
+                    <option value="meeting">Meeting</option>
+                    <option value="call">Call</option>
+                    <option value="important">Important Day</option>
+                    <option value="other">Other Event</option>
+                </select>
+                <input type="date" id="taskDate">
+                <input type="time" id="taskTime">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="calendar-container">
+            <h2 class="title">Calendar</h2>
+            <div id="calendar"></div>
+            <div class="calendar-legend">
+                <div class="legend-item">
+                    <span class="legend-dot birthday"></span>
+                    <span class="legend-text">Birthday</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot meeting"></span>
+                    <span class="legend-text">Meeting</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot call"></span>
+                    <span class="legend-text">Call</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot important"></span>
+                    <span class="legend-text">Important</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot other"></span>
+                    <span class="legend-text">Other</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
