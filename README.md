@@ -95,12 +95,6 @@ cd ../frontend
 ```
 
 #### Option 1: Open `index.html` in a browser manually  
-#### Option 2: Use live server
-
-
-```bash
-npx live-server
-```
 
 ---
 
@@ -123,7 +117,5 @@ Made by Swathi P
 
 ---
 
-## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
 
