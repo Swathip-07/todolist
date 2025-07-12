@@ -39,7 +39,7 @@ todolist/
 - **Dev Tool**: nodemon
 - **Deployment**: 
   - Frontend: Vercel
-  - Backend: Localhost / Manual hosting
+  - Backend: Localhost 
 
 ---
 
