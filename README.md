@@ -97,7 +97,6 @@ cd ../frontend
 #### Option 1: Open `index.html` in a browser manually  
 #### Option 2: Use live server
 
-If you have live-server globally:
 
 ```bash
 npx live-server
