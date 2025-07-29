@@ -1,17 +1,17 @@
-# 🗓️ Todo Calendar App
+#  Todo Calendar App
 
 A full-stack **Todo Calendar** web application that allows users to create, view, and manage scheduled tasks or events with specific date and time. 
 Tasks are stored in a MySQL database, and both backend and frontend work seamlessly together.
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 👉 [Frontend Deployed on Vercel](https://todolist-amber-alpha.vercel.app/)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 todolist/
@@ -28,7 +28,7 @@ todolist/
 
 ---
 
-## ⚙️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Backend**: Node.js, Express.js
@@ -53,9 +53,9 @@ todolist/
 
 ---
 
-## 🛠️ Local Setup Instructions
+##  Local Setup Instructions
 
-### 📌 Prerequisites
+###  Prerequisites
 
 - Node.js & npm installed
 - MySQL installed and running
@@ -98,22 +98,22 @@ cd ../frontend
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                      | Description                 |
 |--------|-------------------------------|-----------------------------|
 | GET    | `/api/tasks`                  | Get all tasks               |
 | POST   | `/api/tasks`                  | Add new task                |
 | GET    | `/check-data`                 | View raw DB contents (HTML) |
-| GET    | `/api/tasks/debug`            | Debug endpoint (JSON)       |
+      |
 
 ---
 
 
-## 🧠 Author & Credits
+##  Author & Credits
 
 Made by Swathi P  
-📧 Contact: swathip200467@gmail.com
+Contact: swathip200467@gmail.com
 
 ---
 
