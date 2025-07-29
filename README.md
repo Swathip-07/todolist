@@ -43,7 +43,7 @@ todolist/
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Add new tasks/events with date, time, and type
 - View tasks in calendar-like interface
