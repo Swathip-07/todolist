@@ -105,7 +105,7 @@ cd ../frontend
 | GET    | `/api/tasks`                  | Get all tasks               |
 | POST   | `/api/tasks`                  | Add new task                |
 | GET    | `/check-data`                 | View raw DB contents (HTML) |
-      |
+      
 
 ---
 
